@@ -46,6 +46,10 @@ body{
 .nav-link:hover+.hovereffect {
     width: 100%;
 }
+.main1_innercontent{
+    padding-top:250px;
+    width: 50%;
+} 
 
  
 
