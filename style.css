@@ -49,7 +49,39 @@ body{
 .main1_innercontent{
     padding-top:250px;
     width: 50%;
-} 
+}
 
- 
+/* Card */
+.product-card{
+    background: black;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+/* card Image */
+.product-card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+/* Button Style */
+.btn{
+    width: 150px;
+}
+
+/* right image */
+.rightimg{
+     border-radius: 8px;
+    
+}
+
+
+
+
+
+
+
 
