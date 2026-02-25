@@ -12,7 +12,7 @@ body{
 }
  .banner{
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/075/840/573/small/stunning-emerald-cut-engagement-ring-highlighting-elegance-and-craftsmanship-in-soft-natural-lighting-photo.jpg);
-    width: 100;
+    width: 100%;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,85 +80,9 @@ body{
 
 
 
-.footer{
-  background:black;
-  color:white;
-  padding:40px 20px 0;
-}
 
-.footer-container{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
-}
 
-.footer-box{
-  width:23%;
-}
 
-/* .footer-box h2, */
-.footer-box h3{
-  margin-bottom:15px;
-}
-
-.footer-box p{
-  margin:5px 0;
-  color:white;
-}
-
-.footer-box ul{
-  list-style:none;
-  padding:0;
-}
-
-.footer-box ul li{
-  margin:8px 0;
-  color:white;
-  cursor:pointer;
-}
-
-.footer-box ul li:hover{
-  color:orange;
-}
-
-.social-icons i{
-  background:orange;
-  color:black;
-  padding:15px;
-  border-radius:50%;
-  margin-right:10px;
-  width: 15%;
-  cursor:pointer;
-}
-
-.newsletter{
-  display:flex;
-  margin-top:10px;
-}
-
-.newsletter input{
-  padding:10px;
-  border:none;
-  width:70%;
-}
-
-.newsletter button{
-  padding:10px 15px;
-  background:orange;
-  border:none;
-  cursor:pointer;
-}
-
-.newsletter button:hover{
-  background:orange;
-}
-
-.footer-bottom{
-  border-top:1px solid orange;
-  text-align:center;
-  margin-top:30px;
-  padding:15px;
-}
 /* aboutpage */
 .banner1{
     background-image: url(img/banner1.jpg);
@@ -170,33 +94,6 @@ body{
     margin-top: 0px;
 }
 
-.footer-section h5 {
-  color:white;
-}
-
-.footer-links {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-links li {
-  margin-bottom: 8px;
-}
-
-.footer-links li a {
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.footer-links li a:hover {
-  color: orange;
-  padding-left: 5px;
-}
-
-.newsletter-box{
-  width: 130%;
-}
 
 /* feedback style */
 .feedback-section{
@@ -224,36 +121,14 @@ body{
 }
 
 /* Inputs */
-.form-control{
-    background-color:whitesmoke;
-    border:none;
-    border-radius:4px;
-    height:40px;
-}
+
 
 textarea.form-control{
     height:120px;
     resize:none;
 }
 
-/* Button */
-.btn-custom{
-    background:orange;
-    border:none;
-    padding:8px 25px;
-    margin-top:15px;
-}
 
-.btn-custom:hover{
-    background:orange;
-}
-
-/* Responsive */
-@media(max-width:768px){
-    .form-box{
-        width:90%;
-    }
-}
 
 /* feedback page */
 .banner3{
@@ -300,9 +175,34 @@ textarea.form-control{
   border-radius: 5px;
 }
 
-.fa-fa:hover{
-    background:orange;
+.abcd  a {
+  color: orange;
+  text-decoration: none;
+  transition: 0.3s;
 }
+
+.abcd  a:hover {
+  color: orange;
+  padding-left: 5px;
+}
+/*contect page */
+.banner5{
+    background-image: url(img/banner5.jpeg);
+    width: 100;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:100px
+  }
+  .background{
+    background-color: black;
+  }
+
+  
+  
+    
+
 
 
 
