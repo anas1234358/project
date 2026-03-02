@@ -40,7 +40,7 @@ body{
     display: block;
     width: 0;
     height: 2px;
-    background-color: orange;
+    background-color: orange ;
     transition: .5s ease-in-out;
 }
 .nav-link:hover+.hovereffect {
@@ -103,7 +103,7 @@ body{
 /* Heading */
 .feedback-title{
     text-align:center;
-    color:orange;
+    color:orange !important;
     letter-spacing:4px;
     margin-bottom:50px;
 }
@@ -163,7 +163,7 @@ textarea.form-control{
 .icon {
   width: 50px;
   height: 50px;
-  background-color: orange;
+  background-color: orange ;
   color:black;
   display: flex;
   align-items: center;
@@ -203,10 +203,11 @@ textarea.form-control{
   /* modal work */
 
   .modal-body img{
-    height: 230px;
-    width: 230px;
+    height: 190px;
+    width: 190px;
     float: left;
     margin-left:5px;
+     border-radius: 8px;
   }
   /* Card1 */
 .product1-card{
