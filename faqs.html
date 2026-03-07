@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top"> 
@@ -94,8 +96,11 @@
   </div>
 </div>
 <div class=" container">
- <h1 class="faqs-title text-center text-light mt-5">SHOPPING INFORMATION</h1>
- <div class="accordion accordion-flush" id="accordionFlushExample">
+ <h1 class="faqs-title text-center text-light mt-5"data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">SHOPPING INFORMATION</h1>
+ <div class="accordion accordion-flush" id="accordionFlushExample"data-aos="fade-up"
+     data-aos-duration="3000">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed    bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -302,5 +307,9 @@
 <script src="jquery-4.0.0.min.js"></script>
 <script src="modification.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
