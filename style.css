@@ -81,7 +81,7 @@ body{
 /* aboutpage */
 .banner1{
     background-image: url(img/banner1.jpg);
-    width: 100;
+    width: 100%;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ textarea.form-control{
 /*contect page */
 .banner4{
     background-image: url(img/banner4.jpeg);
-    width: 100;
+    width: 100%;
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,7 +184,7 @@ textarea.form-control{
 /*contect page */
 .banner5{
     background-image: url(img/banner5.jpeg);
-    width: 100;
+    width: 100%;
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
